@@ -3,6 +3,8 @@ import android.graphics.Color;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
+
 public class TextCustom {
     public static SpannableStringBuilder setStyle(Label... labels) {
         SpannableStringBuilder str = new SpannableStringBuilder();
@@ -24,6 +26,7 @@ public class TextCustom {
             str.setSpan(new android.text.style.StyleSpan(label.style.type), sizeStart, sizeStart + label.text.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             sizeStart += label.text.length();
         }
+        Log.d("TAG", "setStyleColor: ");
         return str;
     }
 }

@@ -1,4 +1,4 @@
-package br.com.stone.tectoy.hal.mylibrary;
+package br.com.stone.tectoy.hal.mytestlibver;
 import android.graphics.Color;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;

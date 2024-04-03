@@ -1,4 +1,4 @@
-package br.com.stone.tectoy.hal.mylibrary;
+package br.com.stone.tectoy.hal.mytestlibver;
 
 public enum StyleText {
     NORMAL(0),

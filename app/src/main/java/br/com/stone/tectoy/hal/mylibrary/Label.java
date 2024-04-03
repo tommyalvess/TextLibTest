@@ -1,4 +1,4 @@
-package br.com.stone.tectoy.hal.mytestlibver;
+package br.com.stone.tectoy.hal.mylibrary;
 
 import androidx.annotation.Size;
 

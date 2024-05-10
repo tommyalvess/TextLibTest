@@ -33,3 +33,6 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
 }
+
+apply {'com.github.dcendents.android-maven'}
+group='com.github.tommyalvess'

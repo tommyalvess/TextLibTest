@@ -1,9 +1,21 @@
-plugins {
-    id 'com.android.application' version '7.4.1' apply false
-    id 'com.android.library' version '7.4.1' apply false
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+
 }
 
+plugins {
+    id 'com.android.library' version '7.4.1' apply false
+}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
